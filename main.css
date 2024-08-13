@@ -44,8 +44,7 @@ h1 {
 
 }
 
-
-/*Sobre*/
+/*Sobre a loja*/
 .sobre {
     margin: 0 auto;
     max-width: 1024px;
@@ -161,80 +160,80 @@ footer p {
         width: 100%;
         padding: 0 20px;
         display: flex;
-        justify-content: space-between; /* Ajustar a navegação e o título */
+        justify-content: space-between; 
         align-items: center;
         padding: 0 20px;
     }
 
     header h1 {
-        font-size: 36px; /* Aumentar o tamanho do título */
+        font-size: 36px; 
         margin: 0;
     }
 
     header .container-conteudo {
         display: flex;
-        gap: 20px; /* Espaçamento entre os links */
+        gap: 20px; 
     }
 
     header .container-conteudo nav a {
-        font-size: 18px; /* Ajustar o tamanho das fontes de navegação */
-        margin-left: 20px; /* Espaçamento entre itens de navegação */
+        font-size: 18px; 
+        margin-left: 20px; 
     }
 
     /* Seção Sobre */
     .container-sobre {
         flex-direction: column;
-        padding: 30px; /* Aumentar o padding para melhor espaçamento */
-        text-align: center; /* Centralizar o conteúdo */
-        background-color: #fafafa; /* Adicionar um fundo claro para destaque */
+        padding: 30px; 
+        text-align: center;
+        background-color: #fafafa;
     }
 
     .imagem-loja img {
         width: 100%;
         height: auto;
-        border-radius: 10px; /* Adicionar bordas arredondadas */
-        margin-bottom: 20px; /* Espaçamento abaixo da imagem */
+        border-radius: 10px; 
+        margin-bottom: 20px;
     }
 
     .loja .titulo-sobre {
         
         display: flex;
-        font-size: 25px; /* Ajuste de tamanho para título */
-        margin-bottom: 20px; /* Ajuste da margem */
-        color: #333; /* Cor mais escura para o título */
+        font-size: 25px;
+        margin-bottom: 20px;
+        color: #333;
     }
 
     .linha {
         display: flex;
         width: 100%;
         margin: 0 auto;
-        margin-bottom: 25px; /* Espaçamento maior abaixo da linha */
-        border-color: #007bff; /* Cor de destaque na linha */
+        margin-bottom: 25px;
+        border-color: #007bff;
     }
 
     .loja p {
         text-align: left;
         width: 100%;
-        font-size: 20px; /* Ajuste de tamanho para texto */
-        line-height: 1.8; /* Melhorar a legibilidade */
-        color: #555; /* Cor do texto mais suave */
+        font-size: 20px; 
+        line-height: 1.8; 
+        color: #555;
     }
 
     /* Seção Produtos */
     .listagem-produtos {
         display: grid;
         grid-template-columns: repeat(2, 45%);
-        column-gap: 5%; /* Espaçamento entre colunas */
-        row-gap: 30px; /* Espaçamento entre linhas */
+        column-gap: 5%;
+        row-gap: 30px;
         justify-content: center;
         padding: 20px;
     }
 
     .produto {
-        background-color: #fff; /* Fundo branco para os produtos */
-        padding: 15px; /* Espaçamento interno nos produtos */
-        border-radius: 10px; /* Bordas arredondadas nos produtos */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar os produtos */
+        background-color: #fff;
+        padding: 15px; 
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         text-align: center;
     }
 
@@ -323,8 +322,7 @@ footer p {
         align-items: center;
         padding: 0 10px;       
     }
-
-    /* Seção Sobre */
+    
     .container-sobre {
         display: block;
         padding: 15px;
@@ -355,7 +353,6 @@ footer p {
         text-align: center;
     }
 
-    /* Listagem de Produtos */
     .listagem-produtos {
         display: flex;
         flex-direction: column;
@@ -375,7 +372,6 @@ footer p {
         height: auto;
     }
 
-    /* Botão do Produto */
     .botao-produto {
         display: flex;
         flex-direction: column;
